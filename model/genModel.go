@@ -10,7 +10,7 @@ import (
 // GenModel
 // @Description 使用gorm-gen生成model和query
 // @Author Oberl-Fitzgerald 2023-12-07 10:50:27
-func GenModel(string mysqlDSN) {
+func GenModel(mysqlDSN string) {
 
 	db, err := gorm.Open(mysql.Open(mysqlDSN))
 	if err != nil {
