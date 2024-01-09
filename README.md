@@ -1,6 +1,6 @@
 # Middleware
 
-# Insatllation
+# Installation
 ```shell
 go get github.com/JK407/middleware
 ```
